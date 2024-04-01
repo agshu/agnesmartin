@@ -27,7 +27,7 @@ export const Startpage = () => {
       <span className="bottom-left">RSVP</span>
       <span className="bottom-right">Text</span>
       <header className="heading parallax floating">
-        More info coming soon...
+        More info coming soon
       </header>
     </div>
   );
