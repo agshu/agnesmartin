@@ -23,9 +23,17 @@ export const Startpage = () => {
   return (
     <div className="startpage">
       <span className="top-left">16-17 AUGUSTI</span>
-      <span className="top-right">ÖRBYHUS SLOTT (ORANGERIET)</span>
+      <div className="top-right">
+        <a href="https://www.orbyhusslott.se/besk" target="blank" className="">
+          ÖRBYHUS SLOTT
+        </a>
+        <a href="https://www.orbyhusslott.se/besk" target="blank">
+          (ORANGERIET)
+        </a>
+      </div>
       <span className="bottom-left">RSVP</span>
       <span className="bottom-right">Text</span>
+      <h1 className="image">AGNES & MARTIN</h1>
       <header className="heading parallax floating">
         More info coming soon
       </header>
